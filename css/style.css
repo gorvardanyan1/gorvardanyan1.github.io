@@ -255,3 +255,20 @@ body{
 .last {
     font-size: 20px;
 }
+.masterLast{
+    display: flex;
+    justify-content: center;
+    
+}
+.naxakrdaran{
+    width: 200px;
+  
+}
+.naxakrdaran h2{
+    color: #f3b01b;
+    text-align: center;
+}
+.naxakrdaran img{
+    width: 100%;
+    object-fit: contain;
+}

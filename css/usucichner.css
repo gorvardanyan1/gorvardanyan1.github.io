@@ -1,0 +1,113 @@
+.staff-item img {
+    width: 160px;
+    height: 236px;
+   
+    object-fit: cover;
+
+
+}
+
+div {
+    text-align: center;
+
+}
+
+div .staffrs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 39%;
+    margin: 0 auto;
+
+
+
+}
+
+
+.staffrs div {
+    overflow: hidden;
+}
+
+.staffImgDiv {
+    border-radius: 25px;
+    overflow: hidden;
+    width: 160px;
+    height: 236px;
+}
+
+.staffrs div:hover img,
+.director:hover img {
+   
+    transform: scale(1.2);
+    transition: 2s;
+}
+
+div h1 {
+    font-size: 50px;
+}
+
+
+
+.directorContainer {
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.staff-item h4 {
+    color: #f3b01b;
+}
+
+.staff-item h3 {
+    color: rgb(5, 222, 5);
+}
+
+.director div h2 {
+    color: rgb(5, 222, 5);
+}
+.staffrVernagir  h1{
+    color: rgb(5, 222, 5);
+}
+.director img{
+    border-radius: 25px;
+    width: 170px;
+    height: 236px;
+    display: flex;
+      justify-content: center; 
+    
+}
+
+.class{
+    background-color: yellow;
+    color: rgb(11, 165, 11);
+}
+.director h3{
+    color: rgb(5, 222, 5);
+}
+.staff-item h2{
+    color: #f3b01b;
+}
+.director h2{
+    color: #f3b01b;
+}
+.contactUs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: #f3b01b;
+    
+}
+.futtrs h2{
+color: rgb(5, 222, 5);
+}
+.futtr h2{
+    color: rgb(5, 222, 5);
+} 
+.futtrs a{
+    color: #f3b01b;
+    text-decoration: none;
+}
+
+
+    
+    
