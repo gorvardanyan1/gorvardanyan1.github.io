@@ -1,0 +1,257 @@
+body{
+    background-color: #EDE4FF;
+}
+
+.containerDiv h3 {
+    font-size: 45px;
+}
+
+.containerDiv h5 {
+
+    font-size: 18px;
+}
+
+.button1 {
+    background-color: #f3b01b;
+    width: 180px;
+    border: 1px solid #f3b01b;
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 15px;
+    box-shadow: 15px 15px 5px rgb(226, 221, 221);
+    color: white;
+}
+
+.button1:hover {
+    background-color: white;
+    width: 180px;
+    border: 1px solid rgb(255, 200, 0);
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 15px;
+    transition: 1.2s;
+    color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerImg img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+    box-shadow: 15px 15px 5px rgb(203, 199, 199);
+}
+
+.containerDiv h2 span {
+    font-size: 30px;
+
+}
+
+.containerDiv h5 span {
+    font-size: 25px;
+
+}
+
+.text {
+    font-size: 25px;
+}
+
+.sksel {
+    background-color: rgb(255, 200, 0);
+    border-radius: 15px;
+}
+
+.kategory {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.advantage {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(238, 237, 232);
+    border-radius: 15px;
+    position: relative;
+}
+
+.haider {
+    width: 700px;
+    height: 65px;
+    overflow: hidden;
+    transition: 2s;
+}
+
+
+.haider:hover {
+    height: 135px;
+}
+
+.advantage img {
+    width: 35px;
+    height: 35px;
+}
+
+.arrow {
+    width: 15px !important;
+    height: 15px !important;
+    position: absolute;
+    right: 5px;
+    top: 20px;
+}
+
+.avelin {
+    text-align: center;
+}
+
+.anun h2 {
+    text-align: center;
+    color: green;
+}
+
+.anun h4 {
+    text-align: center;
+    color:#f3b01b;
+
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.nkar {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+
+.containerDiv p {
+    font-size: 100px;
+    color: rgb(0, 128, 0);
+}
+
+.containerDiv .vorakjal {
+    font-size: 50px;
+    text-align: center;
+    color: #f3b01b;
+}
+
+.buttonDiv {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.containerHeader {
+    animation: headerAnim 4s;
+    margin-top: 200px;
+}
+
+@keyframes headerAnim {
+    from {
+        font-size: 10px;
+    }
+
+    to {
+        font-size: 100px;
+    }
+}
+
+.containerDiv .containerHeader {
+    text-align: center;
+}
+
+.mainContainer {
+    box-shadow: 15px 15px 5px rgb(226, 221, 221);
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+
+
+.hamar {
+    transform: rotate(90deg);
+    font-size: 20px;
+    position: fixed;
+    top: 350px;
+    left: -55px;
+    margin-bottom: 100px;
+    background-color: rgb(0, 128, 0);
+    color: white;
+    border-radius: 25px;
+    padding: 4px 4px;
+}
+
+@media screen and (max-width:1000px) {
+    .aboutMe{
+        flex-wrap: wrap;
+    }
+   
+}
+
+@media screen and (max-width:850px) {
+    nav {
+        display: none !important;
+    }
+   
+}
+@media screen and (max-width:750px) {
+   .haider{
+    width: 450px;
+   }
+   
+}
+
+
+
+@media only screen and (max-width:500px) {
+    p {
+        font-size: 25px !important;
+    }
+   
+}
+
+
+
+.imageDiv img {
+    width: 100%;
+    border-radius: 35px;
+    display: flex;
+}
+
+.title1 {
+    font-size: 40px;
+}
+
+.title1 p {
+    text-align: center;
+    color: #f3b01b;
+}
+
+.aboutMe {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first {
+    font-size: 30px;
+    color: green;
+}
+
+.last {
+    font-size: 20px;
+}
